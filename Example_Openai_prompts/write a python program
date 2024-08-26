@@ -1,0 +1,34 @@
+Openai response for prompt: jarvis using artificial intelligence write a python program 
+ ****************** 
+
+Of course! Here is a simple Python program that uses artificial intelligence to recognize handwritten digits using the MNIST dataset and the scikit-learn library:
+
+```python
+# Import necessary libraries
+from sklearn import datasets
+from sklearn.model_selection import train_test_split
+from sklearn.neural_network import MLPClassifier
+from sklearn.metrics import accuracy_score
+
+# Load the MNIST dataset
+digits = datasets.load_digits()
+
+# Split dataset into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(digits.data, digits.target, test_size=0.2, random_state=42)
+
+# Create a Multi-Layer Perceptron (MLP) Classifier
+clf = MLPClassifier(hidden_layer_sizes=(100,), max_iter=500)
+
+# Train the classifier
+clf.fit(X_train, y_train)
+
+# Make predictions on the test set
+predictions = clf.predict(X_test)
+
+# Calculate the accuracy of the classifier
+accuracy = accuracy_score(y_test, predictions)
+
+print(f"Accuracy of the classifier: {accuracy}")
+```
+
+This program uses a Multi-Layer Perceptron (MLP) Classifier to recognize handwritten digits from the MNIST dataset. You can run this program in a Python environment to see it in action. Let me know if you need any further assistance!
