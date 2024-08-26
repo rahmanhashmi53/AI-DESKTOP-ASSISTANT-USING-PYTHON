@@ -1,0 +1,12 @@
+openai
+requests
+pyttsx3
+SpeechRecognition
+pywhatkit
+wikipedia
+pyautogui
+opencv-python-headless
+plyer
+beautifulsoup4
+speedtest-cli
+pyaudio
