@@ -38,15 +38,15 @@ pip install -r requirements.txt
 
 Configuration
 
-OpenAI API Key: To use the GPT-3 features, you need an OpenAI API key. Create a file named config.py in the root directory of the project and add the following line:
+OpenAI API Key: To use the GPT-3 features, you need an OpenAI API key. In the file named config.py in the root directory of the project and add YOUR_OPENAI_API_KEY:
 
 apikey = 'YOUR_OPENAI_API_KEY'
 
 Weather API Key: Obtain a Weather API key from WeatherAPI and add it to the relevant part of the code.
 
 Usage
-To start the AI Desktop Assistant, run:
 
+To start the AI Desktop Assistant, run:
 
 python main.py
 
