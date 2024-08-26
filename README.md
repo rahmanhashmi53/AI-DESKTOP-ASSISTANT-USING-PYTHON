@@ -105,4 +105,4 @@ OpenAI: For providing the GPT-3 API.<br>
 WeatherAPI: For weather data.<br>
 PyPI: For the various Python packages used.<br>
 
-<>Feel free to explore and extend the functionality of this AI Desktop Assistant. Happy coding!</b>
+<b>Feel free to explore and extend the functionality of this AI Desktop Assistant. Happy coding!</b>
