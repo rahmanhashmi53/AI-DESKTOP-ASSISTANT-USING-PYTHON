@@ -16,12 +16,13 @@ def speak(audio):
 def latestnews():
     api_key = 'YOUR_API_KEY'  # Replace with your newsapi.org API key
     api_dict = {
-        "business" : "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=c2fe9250317047029f6db8036fd1ab22",
-            "entertainment" : "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=c2fe9250317047029f6db8036fd1ab22",
-            "health" : "https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=c2fe9250317047029f6db8036fd1ab22",
-            "science" :"https://newsapi.org/v2/top-headlines?country=in&category=science&apiKey=c2fe9250317047029f6db8036fd1ab22",
-            "sports" :"https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=c2fe9250317047029f6db8036fd1ab22",
-            "technology" :"https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=c2fe9250317047029f6db8036fd1ab22"
+        "business" : "Business_API_KEY",
+            "entertainment" : "",
+            "health" : "",
+            "science" :"",
+            "sports" :"",
+            "technology" :""
+            # in the quotation marks place the API_KEY for the related fields
     }
 
     content = None
