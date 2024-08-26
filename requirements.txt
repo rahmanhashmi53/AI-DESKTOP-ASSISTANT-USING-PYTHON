@@ -5,7 +5,7 @@ SpeechRecognition
 pywhatkit
 wikipedia
 pyautogui
-opencv-python-headless
+opencv-python
 plyer
 beautifulsoup4
 speedtest-cli
