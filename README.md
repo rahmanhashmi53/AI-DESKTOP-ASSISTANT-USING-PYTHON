@@ -25,9 +25,10 @@ pip for installing Python packages
 
 <strong>Create a Virtual Environment (Recommended)</strong>
 
-Copy code :
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+<b>Copy code :</b><br>
+python -m venv venv <br>
+source venv/bin/activate <br> 
+# On Windows, use `venv\Scripts\activate`
 
 <b>Install Dependencies</b>
 
