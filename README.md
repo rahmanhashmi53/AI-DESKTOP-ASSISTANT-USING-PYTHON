@@ -28,7 +28,7 @@ pip for installing Python packages
 <b>Copy code :</b><br>
 python -m venv venv <br>
 source venv/bin/activate <br> 
-# On Windows, use `venv\Scripts\activate`
+<h4> On Windows, use `venv\Scripts\activate`</h4>
 
 <b>Install Dependencies</b>
 
