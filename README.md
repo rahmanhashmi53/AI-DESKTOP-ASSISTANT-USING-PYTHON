@@ -97,7 +97,7 @@ Dictapp.py: Manages opening and closing web apps.<br>
 NewsRead.py: Fetches and reads the latest news.v
 
 
-Contributions are welcome! Please submit issues or pull requests to help improve the assistant. Ensure that your changes are well-documented and tested.
+<!-- Contributions are welcome! Please submit issues or pull requests to help improve the assistant. Ensure that your changes are well-documented and tested. -->
 
 
 
